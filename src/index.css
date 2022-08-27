@@ -1,0 +1,33 @@
+:root {
+  --app-sans-serif-font: "Fira Sans", sans-serif;
+  --app-monospace-font: "Fira Mono", monospace;
+  --primary-700: #15252f;
+  --primary-500: #233e4f;
+  --primary-100: #f2f6f8;
+  --alert-500: #d62828;
+  --text-black: #2b2d42;
+  --text-gray: #6c6c6c;
+  --off-white: #edeceb;
+  --mute-gray: #c7c7c7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--app-sans-serif-font);
+  background-color: var(--off-white);
+  color: var(--text-black);
+}
+
+button,
+a {
+  all: unset;
+  cursor: pointer;
+}
+#react-select-3-listbox {
+  z-index: 3;
+}

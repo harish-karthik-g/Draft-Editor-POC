@@ -1,0 +1,23 @@
+.notes__container {
+  width: 90%;
+  max-width: 700px;
+  margin: 2.5rem auto 0;
+  box-shadow: 2px 2px 8px 3px var(--mute-gray);
+  border-radius: 0.25rem;
+  padding: 2rem;
+  background-color: #fff;
+}
+.notes__card {
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notes__card + .notes__card {
+  padding-top: 1rem;
+  border-top: 1px solid var(--mute-gray);
+}
+.notes__action {
+  margin-top: 2rem;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+.button {
+  text-transform: uppercase;
+  display: inline-flex;
+  font-weight: 500;
+  gap: 1rem;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 150ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  cursor: pointer;
+}
+.button--fill {
+  color: var(--off-white);
+  background-color: var(--primary-500);
+  padding: 0.5rem 1.5rem;
+}
+.button--fill:hover {
+  background-color: var(--primary-700);
+}
+.button--outline {
+  color: var(--primary-500);
+  padding: 0.25rem;
+}
+.button--outline:hover {
+  color: var(--primary-700);
+}
+.button:active {
+  transform: scale(0.97);
+}
